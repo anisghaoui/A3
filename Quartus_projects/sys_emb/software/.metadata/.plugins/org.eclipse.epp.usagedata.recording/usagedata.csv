@@ -1,0 +1,22 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.altera.debug.cdi.gdb.plugin,13.13.0.132,"com.altera.debug.cdi.gdb.plugin",1579777972355
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579777972445
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579777972475
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579777974858
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579777982098
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1579777982108
+opened,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1579777985543
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1579777986134
+started,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1579777988679
+started,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1579777988679
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1579777988679
+started,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1579777989320
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134",1579777999388
+error,log,,,"Downloading ELF Process failed",1579777999388
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579777999388
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579778004044
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579778024367
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579778025428
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1579778025508
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1579778026999
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1579778028049
