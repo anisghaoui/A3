@@ -1,0 +1,7 @@
+
+State Machine - |SQRT_5_states|current_state
+Name current_state.end_state current_state.iter_state current_state.init_state current_state.wait_state 
+current_state.wait_state 0 0 0 0 
+current_state.init_state 0 0 1 1 
+current_state.iter_state 0 1 0 1 
+current_state.end_state 1 0 0 1 

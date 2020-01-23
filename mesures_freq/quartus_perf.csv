@@ -1,0 +1,9 @@
+Model	Fmax (MHz)	Total logic elements 	Total combinational functions 	 Dedicated logic registers 	Total registers 	Total pins 
+5 states	92,7	750	723	234	234	100
+9 states	121,21	480	474	240	240	100
+one_adder	98,31	639	607	367	367	100
+one_adder_decounter	99,63	639	610	367	367	100
+sqrt_Quentin	112,25	522	437	236	236	100
+one_operator	90,74	765	667	295	295	100
+one_process	0	1981	1980	64	64	100
+pipeline	129,3	3140	2078	2575	2575	100

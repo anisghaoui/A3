@@ -1,0 +1,5 @@
+set tool_name "ModelSim (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {sqrt_5_states.vho sqrt_5_states_vhd.sdo}}
+	{{"Fast Model"} {sqrt_5_states_fast.vho sqrt_5_states_vhd_fast.sdo}}
+}

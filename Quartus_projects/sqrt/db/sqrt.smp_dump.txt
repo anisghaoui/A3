@@ -1,0 +1,8 @@
+
+State Machine - |SQRT|current_state
+Name current_state.DONE_STATE current_state.SHIFT_STATE current_state.ITER_STATE current_state.ADD_V_STATE current_state.ILDE_STATE 
+current_state.ILDE_STATE 0 0 0 0 0 
+current_state.ADD_V_STATE 0 0 0 1 1 
+current_state.ITER_STATE 0 0 1 0 1 
+current_state.SHIFT_STATE 0 1 0 0 1 
+current_state.DONE_STATE 1 0 0 0 1 

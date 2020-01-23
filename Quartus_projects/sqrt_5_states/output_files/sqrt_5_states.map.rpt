@@ -1,0 +1,393 @@
+Analysis & Synthesis report for sqrt_5_states
+Fri Jan 17 11:36:42 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |SQRT_5_states|current_state
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |sqrt_5_states
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Equations
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Jan 17 11:36:42 2020           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; sqrt_5_states                                   ;
+; Top-level Entity Name              ; SQRT_5_states                                   ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 755                                             ;
+;     Total combinational functions  ; 723                                             ;
+;     Dedicated logic registers      ; 234                                             ;
+; Total registers                    ; 234                                             ;
+; Total pins                         ; 100                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; sqrt_5_states      ; sqrt_5_states      ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                               ;
++----------------------------------+-----------------+-----------------+-------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path        ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------+---------+
+; ../../TP_A3/sqrt_5_states.vhd    ; yes             ; User VHDL File  ; D:/UPSUD/A3/TP_A3/sqrt_5_states.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 755   ;
+;                                             ;       ;
+; Total combinational functions               ; 723   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 266   ;
+;     -- 3 input functions                    ; 318   ;
+;     -- <=2 input functions                  ; 139   ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 403   ;
+;     -- arithmetic mode                      ; 320   ;
+;                                             ;       ;
+; Total registers                             ; 234   ;
+;     -- Dedicated logic registers            ; 234   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 100   ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; rst   ;
+; Maximum fan-out                             ; 330   ;
+; Total fan-out                               ; 3122  ;
+; Average fan-out                             ; 2.95  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |SQRT_5_states             ; 723 (723)         ; 234 (234)    ; 0           ; 0            ; 0       ; 0         ; 100  ; 0            ; |SQRT_5_states      ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |SQRT_5_states|current_state                                                                                        ;
++--------------------------+-------------------------+--------------------------+--------------------------+--------------------------+
+; Name                     ; current_state.end_state ; current_state.iter_state ; current_state.init_state ; current_state.wait_state ;
++--------------------------+-------------------------+--------------------------+--------------------------+--------------------------+
+; current_state.wait_state ; 0                       ; 0                        ; 0                        ; 0                        ;
+; current_state.init_state ; 0                       ; 0                        ; 1                        ; 1                        ;
+; current_state.iter_state ; 0                       ; 1                        ; 0                        ; 1                        ;
+; current_state.end_state  ; 1                       ; 0                        ; 0                        ; 1                        ;
++--------------------------+-------------------------+--------------------------+--------------------------+--------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                      ;
++------------------------------------------------------------------------------------------------+----------------------------------------+
+; Register name                                                                                  ; Reason for Removal                     ;
++------------------------------------------------------------------------------------------------+----------------------------------------+
+; RZ[63]                                                                                         ; Stuck at GND due to stuck port data_in ;
+; RV[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63] ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 33                                                         ;                                        ;
++------------------------------------------------------------------------------------------------+----------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                         ;
++---------------+---------------------------+---------------------------------------------------------------------------------------------------------+
+; Register name ; Reason for Removal        ; Registers Removed due to This Register                                                                  ;
++---------------+---------------------------+---------------------------------------------------------------------------------------------------------+
+; RV[63]        ; Stuck at GND              ; RV[61], RV[59], RV[57], RV[55], RV[53], RV[51], RV[49], RV[47], RV[45], RV[43], RV[41], RV[39], RV[37], ;
+;               ; due to stuck port data_in ; RV[35], RV[33], RV[31], RV[29], RV[27], RV[25], RV[23], RV[21], RV[19], RV[17], RV[15], RV[13], RV[11], ;
+;               ;                           ; RV[9], RV[7], RV[5], RV[3], RV[1]                                                                       ;
++---------------+---------------------------+---------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 234   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 170   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 160   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 4:1                ; 64 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; Yes        ; |SQRT_5_states|RX[60]      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |sqrt_5_states ;
++------------------+-------+----------------------------------------------------+
+; Parameter Name   ; Value ; Type                                               ;
++------------------+-------+----------------------------------------------------+
+; n                ; 32    ; Signed Integer                                     ;
+; HANDSHAKE_ENABLE ; false ; Enumerated                                         ;
+; RST_ON           ; '0'   ; Enumerated                                         ;
++------------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++--------------------------------+
+; Analysis & Synthesis Equations ;
++--------------------------------+
+The equations can be found in D:/UPSUD/A3/Quartus_projects/sqrt_5_states/output_files/sqrt_5_states.map.eqn.
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Jan 17 11:36:40 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sqrt_5_states -c sqrt_5_states
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /upsud/a3/tp_a3/tb_sqrt_5_states.vhd
+    Info (12022): Found design unit 1: tb_sqrt_5_states-rtl_sim
+    Info (12023): Found entity 1: tb_sqrt_5_states
+Info (12021): Found 2 design units, including 1 entities, in source file /upsud/a3/tp_a3/sqrt_5_states.vhd
+    Info (12022): Found design unit 1: SQRT_5_states-rtl
+    Info (12023): Found entity 1: SQRT_5_states
+Info (12127): Elaborating entity "sqrt_5_states" for the top level hierarchy
+Warning (10492): VHDL Process Statement warning at sqrt_5_states.vhd(35): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
+    Warning (13310): Register "RX[63]" is converted into an equivalent circuit using register "RX[63]~_emulated" and latch "RX[63]~1"
+    Warning (13310): Register "RX[62]" is converted into an equivalent circuit using register "RX[62]~_emulated" and latch "RX[62]~5"
+    Warning (13310): Register "RX[61]" is converted into an equivalent circuit using register "RX[61]~_emulated" and latch "RX[61]~9"
+    Warning (13310): Register "RX[60]" is converted into an equivalent circuit using register "RX[60]~_emulated" and latch "RX[60]~13"
+    Warning (13310): Register "RX[59]" is converted into an equivalent circuit using register "RX[59]~_emulated" and latch "RX[59]~17"
+    Warning (13310): Register "RX[58]" is converted into an equivalent circuit using register "RX[58]~_emulated" and latch "RX[58]~21"
+    Warning (13310): Register "RX[57]" is converted into an equivalent circuit using register "RX[57]~_emulated" and latch "RX[57]~25"
+    Warning (13310): Register "RX[56]" is converted into an equivalent circuit using register "RX[56]~_emulated" and latch "RX[56]~29"
+    Warning (13310): Register "RX[55]" is converted into an equivalent circuit using register "RX[55]~_emulated" and latch "RX[55]~33"
+    Warning (13310): Register "RX[54]" is converted into an equivalent circuit using register "RX[54]~_emulated" and latch "RX[54]~37"
+    Warning (13310): Register "RX[53]" is converted into an equivalent circuit using register "RX[53]~_emulated" and latch "RX[53]~41"
+    Warning (13310): Register "RX[52]" is converted into an equivalent circuit using register "RX[52]~_emulated" and latch "RX[52]~45"
+    Warning (13310): Register "RX[51]" is converted into an equivalent circuit using register "RX[51]~_emulated" and latch "RX[51]~49"
+    Warning (13310): Register "RX[50]" is converted into an equivalent circuit using register "RX[50]~_emulated" and latch "RX[50]~53"
+    Warning (13310): Register "RX[49]" is converted into an equivalent circuit using register "RX[49]~_emulated" and latch "RX[49]~57"
+    Warning (13310): Register "RX[48]" is converted into an equivalent circuit using register "RX[48]~_emulated" and latch "RX[48]~61"
+    Warning (13310): Register "RX[47]" is converted into an equivalent circuit using register "RX[47]~_emulated" and latch "RX[47]~65"
+    Warning (13310): Register "RX[46]" is converted into an equivalent circuit using register "RX[46]~_emulated" and latch "RX[46]~69"
+    Warning (13310): Register "RX[45]" is converted into an equivalent circuit using register "RX[45]~_emulated" and latch "RX[45]~73"
+    Warning (13310): Register "RX[44]" is converted into an equivalent circuit using register "RX[44]~_emulated" and latch "RX[44]~77"
+    Warning (13310): Register "RX[43]" is converted into an equivalent circuit using register "RX[43]~_emulated" and latch "RX[43]~81"
+    Warning (13310): Register "RX[42]" is converted into an equivalent circuit using register "RX[42]~_emulated" and latch "RX[42]~85"
+    Warning (13310): Register "RX[41]" is converted into an equivalent circuit using register "RX[41]~_emulated" and latch "RX[41]~89"
+    Warning (13310): Register "RX[40]" is converted into an equivalent circuit using register "RX[40]~_emulated" and latch "RX[40]~93"
+    Warning (13310): Register "RX[39]" is converted into an equivalent circuit using register "RX[39]~_emulated" and latch "RX[39]~97"
+    Warning (13310): Register "RX[38]" is converted into an equivalent circuit using register "RX[38]~_emulated" and latch "RX[38]~101"
+    Warning (13310): Register "RX[37]" is converted into an equivalent circuit using register "RX[37]~_emulated" and latch "RX[37]~105"
+    Warning (13310): Register "RX[36]" is converted into an equivalent circuit using register "RX[36]~_emulated" and latch "RX[36]~109"
+    Warning (13310): Register "RX[35]" is converted into an equivalent circuit using register "RX[35]~_emulated" and latch "RX[35]~113"
+    Warning (13310): Register "RX[34]" is converted into an equivalent circuit using register "RX[34]~_emulated" and latch "RX[34]~117"
+    Warning (13310): Register "RX[33]" is converted into an equivalent circuit using register "RX[33]~_emulated" and latch "RX[33]~121"
+    Warning (13310): Register "RX[32]" is converted into an equivalent circuit using register "RX[32]~_emulated" and latch "RX[32]~125"
+    Warning (13310): Register "RX[31]" is converted into an equivalent circuit using register "RX[31]~_emulated" and latch "RX[31]~129"
+    Warning (13310): Register "RX[30]" is converted into an equivalent circuit using register "RX[30]~_emulated" and latch "RX[30]~133"
+    Warning (13310): Register "RX[29]" is converted into an equivalent circuit using register "RX[29]~_emulated" and latch "RX[29]~137"
+    Warning (13310): Register "RX[28]" is converted into an equivalent circuit using register "RX[28]~_emulated" and latch "RX[28]~141"
+    Warning (13310): Register "RX[27]" is converted into an equivalent circuit using register "RX[27]~_emulated" and latch "RX[27]~145"
+    Warning (13310): Register "RX[26]" is converted into an equivalent circuit using register "RX[26]~_emulated" and latch "RX[26]~149"
+    Warning (13310): Register "RX[25]" is converted into an equivalent circuit using register "RX[25]~_emulated" and latch "RX[25]~153"
+    Warning (13310): Register "RX[24]" is converted into an equivalent circuit using register "RX[24]~_emulated" and latch "RX[24]~157"
+    Warning (13310): Register "RX[23]" is converted into an equivalent circuit using register "RX[23]~_emulated" and latch "RX[23]~161"
+    Warning (13310): Register "RX[22]" is converted into an equivalent circuit using register "RX[22]~_emulated" and latch "RX[22]~165"
+    Warning (13310): Register "RX[21]" is converted into an equivalent circuit using register "RX[21]~_emulated" and latch "RX[21]~169"
+    Warning (13310): Register "RX[20]" is converted into an equivalent circuit using register "RX[20]~_emulated" and latch "RX[20]~173"
+    Warning (13310): Register "RX[19]" is converted into an equivalent circuit using register "RX[19]~_emulated" and latch "RX[19]~177"
+    Warning (13310): Register "RX[18]" is converted into an equivalent circuit using register "RX[18]~_emulated" and latch "RX[18]~181"
+    Warning (13310): Register "RX[17]" is converted into an equivalent circuit using register "RX[17]~_emulated" and latch "RX[17]~185"
+    Warning (13310): Register "RX[16]" is converted into an equivalent circuit using register "RX[16]~_emulated" and latch "RX[16]~189"
+    Warning (13310): Register "RX[15]" is converted into an equivalent circuit using register "RX[15]~_emulated" and latch "RX[15]~193"
+    Warning (13310): Register "RX[14]" is converted into an equivalent circuit using register "RX[14]~_emulated" and latch "RX[14]~197"
+    Warning (13310): Register "RX[13]" is converted into an equivalent circuit using register "RX[13]~_emulated" and latch "RX[13]~201"
+    Warning (13310): Register "RX[12]" is converted into an equivalent circuit using register "RX[12]~_emulated" and latch "RX[12]~205"
+    Warning (13310): Register "RX[11]" is converted into an equivalent circuit using register "RX[11]~_emulated" and latch "RX[11]~209"
+    Warning (13310): Register "RX[10]" is converted into an equivalent circuit using register "RX[10]~_emulated" and latch "RX[10]~213"
+    Warning (13310): Register "RX[9]" is converted into an equivalent circuit using register "RX[9]~_emulated" and latch "RX[9]~217"
+    Warning (13310): Register "RX[8]" is converted into an equivalent circuit using register "RX[8]~_emulated" and latch "RX[8]~221"
+    Warning (13310): Register "RX[7]" is converted into an equivalent circuit using register "RX[7]~_emulated" and latch "RX[7]~225"
+    Warning (13310): Register "RX[6]" is converted into an equivalent circuit using register "RX[6]~_emulated" and latch "RX[6]~229"
+    Warning (13310): Register "RX[5]" is converted into an equivalent circuit using register "RX[5]~_emulated" and latch "RX[5]~233"
+    Warning (13310): Register "RX[4]" is converted into an equivalent circuit using register "RX[4]~_emulated" and latch "RX[4]~237"
+    Warning (13310): Register "RX[3]" is converted into an equivalent circuit using register "RX[3]~_emulated" and latch "RX[3]~241"
+    Warning (13310): Register "RX[2]" is converted into an equivalent circuit using register "RX[2]~_emulated" and latch "RX[2]~245"
+    Warning (13310): Register "RX[1]" is converted into an equivalent circuit using register "RX[1]~_emulated" and latch "RX[1]~249"
+    Warning (13310): Register "RX[0]" is converted into an equivalent circuit using register "RX[0]~_emulated" and latch "RX[0]~253"
+Critical Warning (18061): Ignored Power-Up Level option on the following registers
+    Critical Warning (18010): Register i[5] will power up to Low
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 855 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 33 output pins
+    Info (21061): Implemented 755 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 69 warnings
+    Info: Peak virtual memory: 4634 megabytes
+    Info: Processing ended: Fri Jan 17 11:36:42 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
