@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/nios_system_ONCHIP.dat" type="DAT" initParamName="INIT_FILE" memoryPath="ONCHIP" />
+<file path="hdl_sim/SDRAM_CONTROLLER.dat" type="DAT" memoryPath="SDRAM_CONTROLLER" />
+<file path="nios_system_ONCHIP.hex" type="HEX" initParamName="INIT_FILE" memoryPath="ONCHIP" />
+</simPackage>

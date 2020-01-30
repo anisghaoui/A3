@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 \usepackage[margin = 2.00cm]{geometry}
+\usepackage{tikz}
 \author{GHAOUI Anis}
 \title{Compte rendu TP A3}
 
@@ -63,11 +64,23 @@ Dans un premier temps, on pense à simplement traduire \textbf{tout} l'algorithm
 \inputvhdl{SQRT_one_process}
 
 \subsection{Implémentation multi-cycles}
-On choisit alors d'implémenter une variante où on décrit le module de racine carrée par une machine d'états finis. il y aura un cycle où on itère $n$ fois . Le diagramme ci-dessous représente cette automate :
+\subsubsection{4 cycles}
+On choisit alors d'implémenter une machine synchrone où on décrit le module de racine carrée par une machine d'états finis. il y aura un cycle où on itère $n$ fois . Le diagramme ci-dessous représente cette automate :
+\begin{figure}[H]
+\centering
+\include{./tikz_files/5_cycles}
+\end{figure}
+%explication des états
 
-\subsubsection{5 cycles}
 \subsubsection{9 cycles}
+Cette implémentation décompose relativement bien les états de l'automate. Mais, on pense pouvoir obtenir un gain de performances en ayant un cycle par opération à effectuer. L'idée est que vu que l'état sera combinatoirement simple, il sera plus rapide  à exécuter et donc la fréquence augmente. Par contre, on pense aussi que ceci consommera plus de ressources du FPGA.
+\begin{figure}[H]
+	\centering
+	\include{./tikz_files/9_cycles}
+\end{figure}
 \subsubsection{Variante avare} %Quentin
+
+%
 
 \subsection{Implémentation avec opérateur unique}
 \subsubsection{Opérandes préemptées}

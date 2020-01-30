@@ -1,0 +1,357 @@
+!SESSION 2020-01-30 09:18:17.384 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-30 09:19:27.824
+!MESSAGE Indexed 'helo_bsp' (81 sources, 60 headers) in 1,09 sec: 957 declarations; 2 377 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5,63 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-30 09:19:32.344
+!MESSAGE Indexed 'helo' (1 sources, 13 headers) in 0,02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.debug.core 4 102 2020-01-30 09:20:04.163
+!MESSAGE A project was not specified in the launch configuration.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:21:27.003
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:21:31.734
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:21:37.996
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1580371075, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:21:37.996
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.launch 4 104 2020-01-30 09:23:10.001
+!MESSAGE The Nios II ELF executable does not exist. Please verify that the project helo built successfully.
+!STACK 0
+java.io.FileNotFoundException: ELF file 'helo.elf' not found.
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.getProgramFile(Nios2HardwareLaunchDelegate.java:1245)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramFile(AbstractCLaunchDelegate.java:444)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.initialize(AbstractNios2CLaunchDelegate.java:183)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:90)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2020-01-30 09:23:10.001
+!MESSAGE ELF file 'helo.elf' not found.
+!STACK 0
+java.io.FileNotFoundException: ELF file 'helo.elf' not found.
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.getProgramFile(Nios2HardwareLaunchDelegate.java:1245)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramFile(AbstractCLaunchDelegate.java:444)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.initialize(AbstractNios2CLaunchDelegate.java:183)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:90)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:26:12.873
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:26:12.873
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:26:34.751
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:26:39.451
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:31:27.103
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:31:28.353
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:31:33.065
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:41:08.912
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:41:10.213
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:41:15.434
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:52:51.701
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:52:52.948
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:52:57.780
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:54:18.193
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:54:20.526
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:54:25.233
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:55:37.432
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:55:38.630
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:55:43.379
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:56:12.125
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:56:13.320
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:56:18.238
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:57:19.104
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:57:20.322
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:57:25.123
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:58:06.896
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:58:08.079
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:58:12.911
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:59:21.410
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:59:22.644
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:59:27.413
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:59:29.655
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-01-30 10:00:48.473
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+!SESSION 2020-01-30 10:00:55.102 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:01:36.469
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:01:41.228
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:02:23.696
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:02:24.911
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:02:29.628
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:05:09.501
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:05:10.982
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:05:15.902
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:06:08.692
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:06:10.986
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:06:15.759
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:07:00.714
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:07:01.950
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:07:06.730
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:08:22.144
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:08:23.380
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:08:28.172
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:16:31.747
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:16:32.947
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:16:37.786
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:14.286
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:15.612
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:21.180
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:31.886
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:33.156
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580371075]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 10:18:37.927
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580371075 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 10:18:43.897
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1580371075, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 10:18:43.905
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:28:01.367
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1580379733]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:28:06.228
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1580379733 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 11:28:12.208
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1580379733, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 11:28:12.210
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 11:40:06.426
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1580380199", expected: "1580379733".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 11:40:06.429
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1580380199", expected: "1580379733".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:40:25.232
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:40:29.651
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:43:32.904
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:43:34.194
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:43:38.074
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:46:50.090
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:46:52.728
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:46:56.556
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:48:35.552
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:48:37.349
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 11:48:41.172
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/helo/helo.elf]
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-01-30 12:23:28.514
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getLaunchManager(LaunchConfiguration.java:462)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -1,0 +1,20 @@
+\tikzstyle{nodus}=[circle,draw=black,minimum size=1.75 cm]
+\def\dis{2}
+\begin{tikzpicture}
+\node [nodus] (wait)	[label={[label distance=0.5cm]90:!start}]  at (0,0) {wait};
+\node [nodus] (init) 	[right of = wait,right = \dis cm] {init};
+\node [nodus] (iter) 	[label={[label distance=0.5cm]-60:i!=n}]  [below of = init,below=\dis cm] {iter};
+\node [nodus] (end) 	[below of = wait,below= \dis cm] {end};
+\node [nodus] (default) [left of = wait,left = \dis cm] {default};
+
+\draw [->] (wait) edge node [midway,above]{start}  (init);
+\draw [->] (init)   edge (iter);
+\draw [->] (iter)  edge node [midway,above]{i==n}  (end);
+\draw [->] (end) edge (wait);
+\draw [->] (default) edge (wait);
+
+\draw [->](wait)  to[distance = 1 cm ,out=45,in=135] (wait);
+
+\draw [->](iter)  to[distance = 1 cm ,out=-45,in=-90] (iter);
+
+\end{tikzpicture}

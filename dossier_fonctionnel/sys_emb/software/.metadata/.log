@@ -1,0 +1,1544 @@
+!SESSION 2020-01-23 11:22:57.118 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 11:23:44.448
+!MESSAGE Indexed 'hello_world2_bsp' (81 sources, 60 headers) in 0,61 sec: 957 declarations; 2 377 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5,63 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 11:23:47.308
+!MESSAGE Indexed 'hello_world2' (1 sources, 13 headers) in 0,02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:31:40.503
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:31:45.835
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:31:45.995
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:31:50.337
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:31:50.337
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:32:05.657
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:09.169
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:32:09.339
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:13.731
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:13.731
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:32:41.861
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:45.443
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:32:45.613
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:49.925
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:32:49.925
+!MESSAGE Downloading ELF Process failed
+!SESSION 2020-01-23 11:33:18.295 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:33:33.455
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:33:36.927
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:33:37.097
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:33:41.429
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:33:41.429
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:34:28.079
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:31.521
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:34:31.771
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:36.113
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:36.113
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:34:50.023
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:53.505
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:34:53.675
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:57.957
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:34:57.957
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 11:36:02.487
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.swt.layout.GridData cannot be cast to org.eclipse.swt.layout.FillData
+	at org.eclipse.swt.layout.FillLayout.computeChildSize(FillLayout.java:144)
+	at org.eclipse.swt.layout.FillLayout.computeSize(FillLayout.java:122)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Group.computeSize(Group.java:154)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:614)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.contentsChanged(CDebuggerTab.java:515)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.loadDynamicDebugArea(AbstractCDebuggerTab.java:197)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.handleDebuggerChanged(AbstractCDebuggerTab.java:125)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.updateComboFromSelection(AbstractCDebuggerTab.java:341)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.updateComboFromSelection(CDebuggerTab.java:237)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab$2.widgetSelected(AbstractCDebuggerTab.java:290)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1132)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:579)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:587)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:521)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 11:36:04.467
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.swt.layout.GridData cannot be cast to org.eclipse.swt.layout.FillData
+	at org.eclipse.swt.layout.FillLayout.computeChildSize(FillLayout.java:144)
+	at org.eclipse.swt.layout.FillLayout.computeSize(FillLayout.java:122)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Group.computeSize(Group.java:154)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:614)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.contentsChanged(CDebuggerTab.java:515)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.loadDynamicDebugArea(AbstractCDebuggerTab.java:197)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.handleDebuggerChanged(AbstractCDebuggerTab.java:125)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.updateComboFromSelection(AbstractCDebuggerTab.java:341)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.updateComboFromSelection(CDebuggerTab.java:237)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab$2.widgetSelected(AbstractCDebuggerTab.java:290)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1132)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:579)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:587)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:521)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 11:36:05.867
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.swt.layout.GridData cannot be cast to org.eclipse.swt.layout.FillData
+	at org.eclipse.swt.layout.FillLayout.computeChildSize(FillLayout.java:144)
+	at org.eclipse.swt.layout.FillLayout.computeSize(FillLayout.java:122)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Group.computeSize(Group.java:154)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:614)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.contentsChanged(CDebuggerTab.java:515)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.loadDynamicDebugArea(AbstractCDebuggerTab.java:197)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.handleDebuggerChanged(AbstractCDebuggerTab.java:125)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab.updateComboFromSelection(AbstractCDebuggerTab.java:341)
+	at org.eclipse.cdt.launch.ui.CDebuggerTab.updateComboFromSelection(CDebuggerTab.java:237)
+	at org.eclipse.cdt.launch.internal.ui.AbstractCDebuggerTab$2.widgetSelected(AbstractCDebuggerTab.java:290)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1132)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:579)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:587)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:521)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 11:36:09.227
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.swt.layout.GridData cannot be cast to org.eclipse.swt.layout.FillData
+	at org.eclipse.swt.layout.FillLayout.computeChildSize(FillLayout.java:144)
+	at org.eclipse.swt.layout.FillLayout.computeSize(FillLayout.java:122)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Group.computeSize(Group.java:154)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.CTabFolderLayout.computeSize(CTabFolderLayout.java:59)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.StackLayout.computeSize(StackLayout.java:97)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:194)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1263)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1270)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1249)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:664)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.showLink(LaunchConfigurationTabGroupViewer.java:509)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.refresh(LaunchConfigurationTabGroupViewer.java:470)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.updateButtons(LaunchConfigurationsDialog.java:1516)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTab.updateLaunchConfigurationDialog(AbstractLaunchConfigurationTab.java:107)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupPanel.updateLaunchConfigurationDialog(SourceLookupPanel.java:325)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceContainerViewer.setEntries(SourceContainerViewer.java:133)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupPanel.initializeFrom(SourceLookupPanel.java:219)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupPanel.initializeFrom(SourceLookupPanel.java:203)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupPanel.activated(SourceLookupPanel.java:368)
+	at org.eclipse.debug.ui.sourcelookup.SourceLookupTab.activated(SourceLookupTab.java:126)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.handleTabSelected(LaunchConfigurationTabGroupViewer.java:1314)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer$6.widgetSelected(LaunchConfigurationTabGroupViewer.java:369)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:2746)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1433)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:257)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1132)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:579)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:587)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:521)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 11:36:09.937
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.swt.layout.GridData cannot be cast to org.eclipse.swt.layout.FillData
+	at org.eclipse.swt.layout.FillLayout.computeChildSize(FillLayout.java:144)
+	at org.eclipse.swt.layout.FillLayout.computeSize(FillLayout.java:122)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.widgets.Group.computeSize(Group.java:154)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.CTabFolderLayout.computeSize(CTabFolderLayout.java:59)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.computeSize(GridLayout.java:163)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.custom.StackLayout.computeSize(StackLayout.java:97)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:233)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:194)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1263)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1270)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1249)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:664)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.showLink(LaunchConfigurationTabGroupViewer.java:509)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.refresh(LaunchConfigurationTabGroupViewer.java:470)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer$6.widgetSelected(LaunchConfigurationTabGroupViewer.java:370)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:2746)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1433)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:257)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1132)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:579)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:587)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:521)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:36:14.387
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:36:17.919
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:36:18.079
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:36:22.378
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:36:22.378
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:37:25.708
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:37:29.200
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:37:29.370
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:37:33.662
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:37:33.662
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:40:45.242
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:40:45.242
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:41:03.542
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:41:03.542
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:41:26.062
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:41:29.774
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:41:29.944
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:41:34.216
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:41:34.216
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:47:17.199
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1579772844]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:21.841
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x8109040, --id=0x0, --timestamp=1579772844] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:47:22.001
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1579772844 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:26.319
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x8109040, --id=0x0, --timestamp=1579772844, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:26.319
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:47:52.351
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:55.163
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x8109040] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:47:55.333
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:58.965
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:47:58.965
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:48:31.497
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:48:34.309
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x8109040] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:48:34.479
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:48:38.121
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:48:38.121
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:49:07.502
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:49:10.324
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x8109040] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 11:49:10.494
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:49:14.086
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 139
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 11:49:14.086
+!MESSAGE Downloading ELF Process failed
+!SESSION 2020-01-23 11:59:27.188 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 4 567 2020-01-23 12:00:14.475
+!MESSAGE Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index'. Unexpected version: 0.
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 12:00:32.269
+!MESSAGE Unable to restore working set state.
+!STACK 1
+org.eclipse.ui.WorkbenchException: Content is not allowed in prolog.
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:143)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:65)
+	at org.eclipse.ui.internal.WorkingSetManager.restoreState(WorkingSetManager.java:115)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:610)
+	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1470)
+	at org.eclipse.ui.internal.WorkbenchPage.restoreState(WorkbenchPage.java:3247)
+	at org.eclipse.ui.internal.WorkbenchWindow.restoreState(WorkbenchWindow.java:2232)
+	at org.eclipse.ui.internal.Workbench.doRestoreState(Workbench.java:3687)
+	at org.eclipse.ui.internal.Workbench.access$32(Workbench.java:3629)
+	at org.eclipse.ui.internal.Workbench$60.run(Workbench.java:2329)
+	at org.eclipse.ui.internal.Workbench.runStartupWithProgress(Workbench.java:2026)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2327)
+	at org.eclipse.ui.internal.Workbench.access$30(Workbench.java:2298)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2144)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2088)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:116)
+	... 17 more
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-01-23 12:00:32.269
+!MESSAGE Content is not allowed in prolog.
+!STACK 0
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:116)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:65)
+	at org.eclipse.ui.internal.WorkingSetManager.restoreState(WorkingSetManager.java:115)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:610)
+	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1470)
+	at org.eclipse.ui.internal.WorkbenchPage.restoreState(WorkbenchPage.java:3247)
+	at org.eclipse.ui.internal.WorkbenchWindow.restoreState(WorkbenchWindow.java:2232)
+	at org.eclipse.ui.internal.Workbench.doRestoreState(Workbench.java:3687)
+	at org.eclipse.ui.internal.Workbench.access$32(Workbench.java:3629)
+	at org.eclipse.ui.internal.Workbench$60.run(Workbench.java:2329)
+	at org.eclipse.ui.internal.Workbench.runStartupWithProgress(Workbench.java:2026)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2327)
+	at org.eclipse.ui.internal.Workbench.access$30(Workbench.java:2298)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2144)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2088)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-01-23 12:00:49.316
+!MESSAGE Error: Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.projects\hello_world2_bsp\.indexes\properties.index'. Unexpected version: 0.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.projects\hello_world2_bsp\.indexes\properties.index'. Unexpected version: 0.
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:303)
+	at org.eclipse.core.internal.properties.PropertyBucket.load(PropertyBucket.java:258)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:274)
+	at org.eclipse.core.internal.localstore.BucketTree.loadBucketFor(BucketTree.java:115)
+	at org.eclipse.core.internal.properties.PropertyManager2.getProperty(PropertyManager2.java:135)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1179)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription$CfgIdPair.load(CProjectDescription.java:132)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription$CfgIdPair.getId(CProjectDescription.java:77)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription$CfgIdPair.getConfiguration(CProjectDescription.java:90)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.getDefaultSettingConfiguration(CProjectDescription.java:595)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.loadDescriptor(CConfigBasedDescriptorManager.java:395)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.findDescriptor(CConfigBasedDescriptorManager.java:344)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.getDescriptor(CConfigBasedDescriptorManager.java:237)
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:738)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:100)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:94)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1332)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:214)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:108)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:133)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:75)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:419)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:404)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:166)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:65)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:201)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:191)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:71)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:34)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:161)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:98)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:89)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:82)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:48)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:37)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:72)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:56)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:193)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:113)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:99)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:486)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:231)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:416)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:398)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:393)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:386)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:603)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:624)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:588)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:265)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:480)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:327)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:120)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:795)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:836)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:779)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4213)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:237)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1451)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:169)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1495)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1458)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2649)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-01-23 12:00:49.316
+!MESSAGE Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.projects\hello_world2_bsp\.indexes\properties.index'. Unexpected version: 0.
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-01-23 12:01:06.263
+!MESSAGE Error: Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index'. Unexpected version: 0.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index'. Unexpected version: 0.
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:303)
+	at org.eclipse.core.internal.properties.PropertyBucket.load(PropertyBucket.java:258)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:274)
+	at org.eclipse.core.internal.localstore.BucketTree.loadBucketFor(BucketTree.java:115)
+	at org.eclipse.core.internal.properties.PropertyManager2.setProperty(PropertyManager2.java:165)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1823)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.setCacheState(ContentDescriptionManager.java:483)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:317)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:246)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:207)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:194)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:173)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:67)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(ProjectIndexerInputAdapter.java:296)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:875)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:743)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:371)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:85)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-01-23 12:01:06.263
+!MESSAGE Could not read metadata for 'C:\Users\qforcio\Desktop\A3\TP1\PARTIE2\sys_emb\software\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index'. Unexpected version: 0.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 12:01:06.263
+!MESSAGE Indexed 'hello_world2' (0 sources, 59 headers) in 1,71 sec: 1 555 declarations; 1 525 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0,19 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 12:01:08.763
+!MESSAGE Indexed 'hello_world2_bsp' (81 sources, 128 headers) in 2,49 sec: 4 420 declarations; 5 632 references; 0 unresolved inclusions; 3 syntax errors; 18 unresolved names (0,18 %)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:02:19.060
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:02:22.798
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:02:33.373
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:02:33.373
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:00.372
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:03.983
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:03:09.151
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:03:09.151
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:20.223
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:23.865
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:03:33.406
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:03:33.406
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:43.214
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:03:48.623
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:03:58.224
+!MESSAGE Target request failed: Remote communication error: No error.
+
+!ENTRY org.eclipse.ui 4 4 2020-01-23 12:04:12.827
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY org.eclipse.ui 4 4 2020-01-23 12:04:12.827
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.LayoutHelper.createView(LayoutHelper.java:162)
+	at org.eclipse.ui.internal.PageLayout.createView(PageLayout.java:554)
+	at org.eclipse.ui.internal.PageLayout.stackView(PageLayout.java:863)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processView(PerspectiveExtensionReader.java:270)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processExtension(PerspectiveExtensionReader.java:118)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.readElement(PerspectiveExtensionReader.java:355)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.extendLayout(PerspectiveExtensionReader.java:82)
+	at org.eclipse.ui.internal.Perspective.loadPredefinedPersp(Perspective.java:818)
+	at org.eclipse.ui.internal.Perspective.createPresentation(Perspective.java:270)
+	at org.eclipse.ui.internal.Perspective.<init>(Perspective.java:156)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createPerspective(Workbench3xImplementation.java:55)
+	at org.eclipse.ui.internal.WorkbenchPage.createPerspective(WorkbenchPage.java:1748)
+	at org.eclipse.ui.internal.WorkbenchPage.busySetPerspective(WorkbenchPage.java:1108)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1099)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3812)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.switchToPerspective(PerspectiveManager.java:316)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$4.runInUIThread(PerspectiveManager.java:395)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-01-23 12:04:12.827
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:04:56.708
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:05:00.430
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:05:08.367
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:05:08.367
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:07:14.848
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:07:22.400
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x8109040] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:07:22.570
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:07:33.716
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:07:33.716
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:14:40.698
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:14:44.292
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:14:48.605
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:14:48.605
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:15:55.134
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:15:58.637
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:16:58.107
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:16:59.598
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:17:03.220
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:18:34.019
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:18:35.470
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:18:39.023
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:18:43.366
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:18:43.366
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:21:23.799
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:21:24.439
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:21:28.283
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:21:28.313
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:21:32.756
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:21:32.756
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:21:32.756
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:21:32.756
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:22:32.552
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:22:36.174
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 12:23:35.423
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Unknown Source)
+	at com.altera.sbtgui.launch.console.SystemConsoleClient.getServerPort(SystemConsoleClient.java:155)
+	at com.altera.sbtgui.launch.console.SystemConsoleClient.connect(SystemConsoleClient.java:170)
+	at com.altera.sbtgui.launch.SystemConsoleQuery.getServicePaths(SystemConsoleQuery.java:93)
+	at com.altera.sbtgui.launch.SystemConsoleQuery.getServicePaths(SystemConsoleQuery.java:82)
+	at com.altera.sbtgui.launch.console.BytestreamConsoleFactory.openConsole(BytestreamConsoleFactory.java:34)
+	at org.eclipse.ui.internal.console.OpenConsoleAction$ConsoleFactoryAction.run(OpenConsoleAction.java:140)
+	at org.eclipse.ui.internal.console.OpenConsoleAction$ConsoleFactoryAction.runWithEvent(OpenConsoleAction.java:150)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:25:31.891
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:25:33.361
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:25:38.754
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:25:43.366
+!MESSAGE Target request failed: Warning:\nCannot insert breakpoint -1.\nError accessing memory address 0x4000194: (undocumented errno -1).\nCannot insert breakpoint 1.\nError accessing memory address 0x40001f0: (undocumented errno -1).\n.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:26:10.021
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:26:14.983
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:26:19.536
+!MESSAGE Target request failed: Warning:\nCannot insert breakpoint -1.\nError accessing memory address 0x4000194: (undocumented errno -1).\nCannot insert breakpoint 1.\nError accessing memory address 0x40001f0: (undocumented errno -1).\n.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:26:51.397
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:26:52.472
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:26:57.825
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:27:02.467
+!MESSAGE Target request failed: Warning:\nCannot insert breakpoint -1.\nError accessing memory address 0x4000194: (undocumented errno -1).\nCannot insert breakpoint 1.\nError accessing memory address 0x40001f0: (undocumented errno -1).\n.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:28:06.100
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:28:07.158
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:28:10.900
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:32:54.829
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:32:56.269
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:32:59.901
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:33:23.715
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:33:25.195
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:33:30.488
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:33:35.110
+!MESSAGE Target request failed: Warning:\nCannot insert breakpoint -1.\nError accessing memory address 0x4000194: (undocumented errno -1).\nCannot insert breakpoint 1.\nError accessing memory address 0x4000200: (undocumented errno -1).\nCannot insert breakpoint 2.\nError accessing memory address 0x40001f0: (undocumented errno -1).\n.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:35:12.451
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:35:13.564
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:35:17.217
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:35:24.171
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:35:24.171
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:35:55.659
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:35:59.321
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:36:06.851
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:36:06.851
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:37:58.081
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:38:03.444
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:38:11.198
+!MESSAGE Target request failed: Remote communication error: No error.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:38:19.379
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:38:20.461
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:38:25.824
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:38:33.917
+!MESSAGE Target request failed: Remote communication error: No error.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:39:05.678
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:39:07.240
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:39:10.862
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:39:18.446
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:39:18.446
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:40:21.387
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:40:26.799
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:40:33.692
+!MESSAGE Target request failed: Remote connection closed.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:41:57.156
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:42:00.758
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:42:07.452
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:42:07.452
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:42:45.572
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:42:50.895
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:42:59.678
+!MESSAGE Target request failed: Remote communication error: No error.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:46:05.492
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:46:09.154
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:46:16.088
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:46:16.088
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:48:50.288
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:48:53.970
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:49:16.243
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:49:17.703
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:49:22.976
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY org.eclipse.cdt.debug.core 4 5010 2020-01-23 12:49:27.678
+!MESSAGE Target request failed: Warning:\nCannot insert breakpoint -1.\nError accessing memory address 0x4000194: (undocumented errno -1).\nCannot insert breakpoint 1.\nError accessing memory address 0x4000200: (undocumented errno -1).\nCannot insert breakpoint 2.\nError accessing memory address 0x40001f0: (undocumented errno -1).\n.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:52:41.438
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:52:42.362
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-23 12:52:45.584
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:52:49.596
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-23 12:52:49.596
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 13:02:38.701
+!MESSAGE Exceptions during shutdown
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:582)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:508)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:515)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:348)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3028)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1040)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1284)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.Workbench$65.handleEvent(Workbench.java:2569)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-23 13:02:38.701
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1258)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:745)
+	at org.eclipse.swt.widgets.Display.getShells(Display.java:2218)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.Workbench$65.handleEvent(Workbench.java:2569)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SESSION 2020-01-30 09:01:52.691 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-01-30 09:03:31.903
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:08:53.978
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:08:54.228
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:09:21.424
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:09:21.424
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:09:59.069
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:10:03.452
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:10:08.683
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:10:08.683
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:10:47.660
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:10:52.112
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:10:57.584
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:10:57.584
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:12:08.050
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:12:12.351
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 --reset-target /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:12:17.333
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, --reset-target, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:12:17.333
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:16:49.543
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-30 09:16:53.325
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:16:58.297
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/software/hello_world2/hello_world2.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-30 09:16:58.297
+!MESSAGE Downloading ELF Process failed

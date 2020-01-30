@@ -1,0 +1,20 @@
+
+**** Build of configuration Nios II for project helo ****
+
+make all 
+Info: Building ../helo_bsp/
+make --no-print-directory -C ../helo_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../helo_bsp//HAL/inc -I../helo_bsp/ -I../helo_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c:20: warning: initialization makes pointer from integer without a cast
+Info: Linking helo.elf
+nios2-elf-g++  -T'../helo_bsp//linker.x' -msys-crt0='../helo_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../helo_bsp/  -msmallc  -Wl,-Map=helo.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o helo.elf obj/default/hello_world.o -lm 
+nios2-elf-insert helo.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8109040 --timestamp 1580380199 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name nios_system --quartus_project_dir "C:/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb" --sopcinfo C:/Users/qforcio/Desktop/A3/TP1/PARTIE2/sys_emb/nios_system.sopcinfo
+Info: (helo.elf) 7456 Bytes program size (code + initialized data).
+Info:            8184 KBytes free for stack + heap.
+Info: Creating helo.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source helo.elf >helo.objdump
+[helo build complete]
+
+**** Build Finished ****
