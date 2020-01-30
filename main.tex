@@ -3,19 +3,67 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{minted}
 \usepackage{graphicx}
-
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 \usepackage[margin = 2.00cm]{geometry}
 \author{GHAOUI Anis}
-\title{Compte rendu TP A3.}
+\title{Compte rendu TP A3}
+
+
+\SetKwInput{KwInput}{Input}                % Set the Input
+\SetKwInput{KwOutput}{Output}              % set the Output
+
+
+%
+\newcommand{\inputvhdl}[1]{\inputminted[linenos,tabsize=2]{vhdl}{./src/#1.vhd}}
+
 \begin{document}
 %page de garde Quentin
-
 \section{Introduction}
+La complexité de la conception des systèmes embarqués modernes étant devenue trop élevée, il est indispensable de recourir à des outils afin d'automatiser ce processus fastidieux. Dans le cours A3, on voit que les étapes de cette conception consistent en la préparation d'un système ayant un CPU virtuel dit \textit{SoftCore}, une ou plusieurs mémoire pour accompagner ce CPU et une brique FPGA qui agit comme un accélérateur matériel. Durant les séances de TP, on procède à la conception de plusieurs variante cette brique afin d'effectuer le calcul d'une racine carrée entière sur FPGA décrite en VHDL. Puis, on instancie un système embarqué grâce à l'outil Qsys d'Intel/Alter pour avoir un CPU et les périphériques requis. Enfin, on intégrera la brique conçue dans ce système afin de mesurer ses performances globales.
+
 \section{Conception d'opérateur racine carrée}
+On commence par une analyse de l'algorithme afin de comprendre sa complexité et l'utilité d'accélérer un tel calcul matériellement.
+
+\begin{algorithm}[H]
+	\KwInput{(X,n) : X  entier codé sur $2\times n$ bits}
+	\KwOutput{Z : Z entier codé sur n bits}
+	Charger X
+	
+	$V = 2^{2n-2}$
+	
+	$Z=0$
+	
+	\For{i = n-1 à 0}{
+		$Z =Z+V$
+		
+		\If{$X-Z\ge 0$}{
+			$X=X-Z$
+			
+			$Z= Z+V$
+		}
+		\Else 
+		{
+			$Z=Z-V$
+		}
+		$Z=Z/2$
+		
+		$V=V/4$		
+	}
+	retourner Z
+\end{algorithm}
+%Q, ajoute des trucs
 
 \subsection{Implémentation combinatoire}
+Dans un premier temps, on pense à simplement traduire \textbf{tout} l'algorithme en vhdl dans un seul \textit{process} afin d'avoir une séquence d'éléments combinatoires propageant le résultat pour chaque valeur de i. Ceci sera synthétisé comme un circuit volumineux très lent.
+\paragraph{Résultats}
+%diag temporel et commentaire
+\paragraph{Code}
+\inputvhdl{SQRT_one_process}
+
 \subsection{Implémentation multi-cycles}
+On choisit alors d'implémenter une variante où on décrit le module de racine carrée par une machine d'états finis. il y aura un cycle où on itère $n$ fois . Le diagramme ci-dessous représente cette automate :
 
 \subsubsection{5 cycles}
 \subsubsection{9 cycles}

@@ -1,0 +1,97 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity SQRT_module is
+	generic(
+		N                : natural   := 32;
+		HANDSHAKE_ENABLE : boolean   := false ;
+		RST_ON           : STD_LOGIC := '0' --active low
+	);
+	port (
+		X     : in  STD_LOGIC_VECTOR(2*N-1 downto 0);
+		start : in  STD_LOGIC;
+		r_out : out STD_LOGIC_VECTOR(N-1 downto 0);
+		done  : out STD_LOGIC;
+		clk   : in  STD_LOGIC;
+		rst   : in  STD_LOGIC
+	);
+end entity;
+
+
+architecture rtl of SQRT_module is
+	type state_t is (ILDE_STATE,ADD_V_STATE,ITER_STATE,SHIFT_STATE,DONE_STATE);
+
+	signal current_state : state_t                  := ILDE_STATE;
+	signal I             : natural range N downto 0 := 0;
+	signal V             : UNSIGNED(2*N-1 downto 0);
+	signal buff_X        : UNSIGNED(2*N-1 downto 0);
+	signal temp_Z        : UNSIGNED(2*N-1 downto 0);
+	constant ZERO        : UNSIGNED(2*N-1 downto 0) := (others => '0');
+	constant V_INI       : UNSIGNED(2*N-1 downto 0) := (2*N-2  => '1',others => '0');
+
+
+begin
+	NEXT_STATE_LOGiC_SYNC : process(clk,rst)
+		variable temp_cmp : UNSIGNED(2*N-1 downto 0);
+	begin
+		if RST =RST_ON then
+			current_state <= ILDE_STATE;
+			buff_X        <= ZERO;
+			Z             <= (others => 'Z');
+			done          <= '0';
+		else
+			if rising_edge(CLK) then
+				case current_state is
+					when ILDE_STATE =>
+						if start='1' then
+							done          <= '0';
+							current_state <= ITER_STATE;
+							temp_X        <= UNSIGNED(X); --charger X
+							temp_Z        <= UNSIGNED(V_INI);
+							V             <= V_INI;
+							I             <= N;
+						end if;
+					when ITER_STATE =>
+						temp_cmp := temp_X-temp_Z;
+						if SIGNED(temp_cmp)>=0 then
+							temp_X <= temp_cmp;
+							temp_Z <= temp_Z+V;
+						else
+							temp_Z <= temp_Z-V;
+						end if;
+						I <= I-1;
+
+						current_state <= SHIFT_STATE;
+
+					when ADD_V_STATE =>
+						temp_Z        <= temp_Z+V;
+						current_state <= ITER_STATE;
+
+					when SHIFT_STATE =>
+						temp_Z <= SHIFT_RIGHT(temp_Z,1);
+						V      <= SHIFT_RIGHT(V,2);
+						if(I<1) then
+							current_state <= DONE_STATE;
+						else
+							current_state <= ADD_V_STATE;
+						end if;
+
+					when DONE_STATE =>
+						Z     <= STD_LOGIC_VECTOR(temp_Z(N-1 downto 0));
+						r_out <= STD_LOGIC_VECTOR(temp_Z(N-1 downto 0));
+						done  <= '1';
+						if HANDSHAKE_ENABLE then
+							if start='0' then
+								current_state <= ILDE_STATE;
+							end if;
+						else
+							current_state <= ILDE_STATE;
+						end if;
+					when others =>
+						current_state <= ILDE_STATE;
+				end case;
+			end if;
+		end if;
+	end process;
+end architecture;

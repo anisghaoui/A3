@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity SQRT_one_process is
+	generic(
+		N                : natural   := 32;
+		HANDSHAKE_ENABLE : boolean   := false ;
+		RST_ON           : STD_LOGIC := '0' --active low
+	);
+	port (
+		X     : in  STD_LOGIC_VECTOR(2*N-1 downto 0);
+		start : in  STD_LOGIC;
+		r_out : out STD_LOGIC_VECTOR(N-1 downto 0);
+		done  : out STD_LOGIC;
+		clk   : in  std_logic;
+		rst   : in  std_logic
+	);
+end entity;
+
+architecture rtl of SQRT_one_process is
+	constant zero  : UNSIGNED(2*N-1 downto 0) := (others => '0');
+	constant V_INI : UNSIGNED(2*N-1 downto 0) := (2*N-2  => '1',others => '0');
+begin
+	process(clk,rst)
+		variable V      : UNSIGNED(2*N-1 downto 0);
+		variable temp_Z : UNSIGNED(2*N-1 downto 0);
+		variable temp_X : UNSIGNED(2*N-1 downto 0);
+	begin
+		if rst= RST_ON then
+			r_out <= (others => 'Z');
+			done  <= '0';
+		else
+			if rising_edge(CLK) then
+				if start='1' then
+					temp_X := UNSIGNED(X);
+					temp_Z := UNSIGNED(zero);
+					V      := UNSIGNED(V_INI);
+					for I IN N downto 0 loop
+						temp_Z := temp_Z + v;
+						if(SIGNED(temp_X-temp_Z)>=0) then
+							temp_X := temp_X-temp_Z;
+							temp_Z := temp_Z+V;
+						else
+							temp_Z := temp_Z-V;
+						end if;
+						temp_Z := SHIFT_RIGHT(temp_Z,1);
+						V      := SHIFT_RIGHT(V,2);
+					end loop;
+					r_out <= STD_LOGIC_VECTOR(temp_Z(N-1 downto 0));
+					done  <= '1';
+				else
+					done <= '0';
+				end if;
+			end if;
+		end if;
+	end process;
+end architecture;
