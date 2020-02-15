@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Temp\\TP1\\PARTIE2\\sys_emb_e\\software\\helo
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Temp\\TP1\\PARTIE2\\sys_emb_e\\nios_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Temp\\TP1\\PARTIE2\\sys_emb_e\\software\\helo_bsp

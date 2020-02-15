@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="172" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="437" />
+   <clocksource preferredWidth="437" />
+   <frequency preferredWidth="430" />
+  </columns>
+ </clocktable>
+ <window width="1616" height="1186" x="-8" y="-8" />
+ <library expandedCategories="Library,Project" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>

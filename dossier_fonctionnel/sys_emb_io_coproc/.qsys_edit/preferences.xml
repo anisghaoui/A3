@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="172" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="437" />
+   <clocksource preferredWidth="437" />
+   <frequency preferredWidth="430" />
+  </columns>
+ </clocktable>
+ <window width="1616" height="1186" x="-8" y="-8" />
+ <library
+   expandedCategories="Library/Interface Protocols/RapidIO,Library/Peripherals,Library/Interface Protocols/Transceiver PHY,Library/Verification/Simulation,Library/Embedded Processors,Library/Peripherals/Microcontroller Peripherals,Library/University Program/Audio &amp; Video/Video,Library/Interface Protocols/Ethernet/Submodules,Library/Verification,Project/System,Library/Bridges/Streaming,Library,Library/University Program/Audio &amp; Video,Library/Interface Protocols/Ethernet,Library/Interface Protocols,Library/Interface Protocols/SDI,Project,Library/Bridges,Library/University Program" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>

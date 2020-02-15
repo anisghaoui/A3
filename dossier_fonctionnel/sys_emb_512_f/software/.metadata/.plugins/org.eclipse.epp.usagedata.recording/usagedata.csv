@@ -1,0 +1,73 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.altera.sbtgui.integration,13.13.0.132,"com.altera.sbtgui.integration",1581689262570
+started,bundle,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch",1581689262580
+started,bundle,com.altera.sbtgui.project,13.13.0.132,"com.altera.sbtgui.project",1581689262580
+started,bundle,com.altera.systemconsole,13.13.0.132,"com.altera.systemconsole",1581689262580
+started,bundle,com.altera.systemconsole.designs.plugin,13.13.0.132,"com.altera.systemconsole.designs.plugin",1581689262580
+started,bundle,com.altera.utilities,13.13.0.132,"com.altera.utilities",1581689262580
+os,sysinfo,,,"win32",1581689262580
+arch,sysinfo,,,"x86",1581689262580
+ws,sysinfo,,,"win32",1581689262580
+locale,sysinfo,,,"fr_FR",1581689262580
+processors,sysinfo,,,"4",1581689262580
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1581689262580
+java.runtime.version,sysinfo,,,"1.6.0_23-b05",1581689262580
+java.specification.name,sysinfo,,,"Java Platform API Specification",1581689262580
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1581689262580
+java.specification.version,sysinfo,,,"1.6",1581689262580
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1581689262580
+java.version,sysinfo,,,"1.6.0_23",1581689262580
+java.vm.info,sysinfo,,,"mixed mode",1581689262580
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1581689262580
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1581689262580
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1581689262580
+java.vm.specification.version,sysinfo,,,"1.0",1581689262580
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1581689262580
+java.vm.version,sysinfo,,,"19.0-b09",1581689262580
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1581689265170
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1581689268490
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1581689268580
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1581689268660
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1581689268790
+started,bundle,com.altera.sbtgui.core,13.13.0.132,"com.altera.sbtgui.core",1581689269010
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1581689269050
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1581689269050
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,13.13.0.132,"com.altera.debug.cdi.gdb.plugin",1581689269050
+stopped,bundle,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch",1581689269060
+stopped,bundle,com.altera.sbtgui.ui,13.13.0.132,"com.altera.sbtgui.ui",1581689269060
+stopped,bundle,com.altera.sbtgui.project,13.13.0.132,"com.altera.sbtgui.project",1581689269060
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1581689269060
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1581689269060
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1581689269060
+stopped,bundle,org.eclipse.cdt.launch.remote,2.3.0.201202111925,"org.eclipse.cdt.launch.remote",1581689269060
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1581689269060
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1581689269060
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.100.201202111925,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1581689269060
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.search,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.search",1581689269060
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1581689269060
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.ui",1581689269060
+stopped,bundle,org.eclipse.cdt.gdb.ui,7.0.0.201202111925,"org.eclipse.cdt.gdb.ui",1581689269060
+stopped,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1581689269060
+stopped,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1581689269060
+stopped,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.traditional,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.traditional",1581689269070
+stopped,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1581689269070
+stopped,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1581689269070
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.ui,1.0.1.201202152032,"org.eclipse.linuxtools.cdt.autotools.ui",1581689269070
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1581689269070
+stopped,bundle,org.eclipse.cdt.managedbuilder.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.gnu.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.msw.build,1.0.0.201202111925,"org.eclipse.cdt.msw.build",1581689269070
+stopped,bundle,org.eclipse.cdt.managedbuilder.core,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.core",1581689269070
+stopped,bundle,org.eclipse.cdt.make.core,7.1.2.201202111925,"org.eclipse.cdt.make.core",1581689269070
+stopped,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.codan.ui,2.0.1.201202111925,"org.eclipse.cdt.codan.ui",1581689269070
+stopped,bundle,com.altera.sbtgui.flash.plugin,13.13.0.132,"com.altera.sbtgui.flash.plugin",1581689269070
+stopped,bundle,com.altera.sbtgui.gprof,13.13.0.132,"com.altera.sbtgui.gprof",1581689269070
+stopped,bundle,com.altera.sbtgui.core,13.13.0.132,"com.altera.sbtgui.core",1581689269070
+stopped,bundle,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui",1581689269070
+stopped,bundle,org.eclipse.cdt.core,5.3.2.201202111925,"org.eclipse.cdt.core",1581689269070
+stopped,bundle,org.eclipse.compare.win32,1.0.200.I20110510-0800,"org.eclipse.compare.win32",1581689269070
+stopped,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1581689269070
+stopped,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1581689269070

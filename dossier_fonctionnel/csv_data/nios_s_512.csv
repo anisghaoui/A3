@@ -1,0 +1,32 @@
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+Flow Summary
+
+Flow Status,Successful - Tue Feb 11 10:39:37 2020
+Quartus II 64-Bit Version,13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name,top_nios_system
+Top-level Entity Name,top_nios_system
+Family,Cyclone II
+Device,EP2C20F484C7
+Timing Models,Final
+Total logic elements,"3,805 / 18,752 ( 20 % )"
+    Total combinational functions,"3,469 / 18,752 ( 18 % )"
+    Dedicated logic registers,"2,453 / 18,752 ( 13 % )"
+Total registers,2521
+Total pins,208 / 315 ( 66 % )
+Total virtual pins,0
+Total memory bits,"160,320 / 239,616 ( 67 % )"
+Embedded Multiplier 9-bit elements,4 / 52 ( 8 % )
+Total PLLs,1 / 4 ( 25 % )

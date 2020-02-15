@@ -1,0 +1,125 @@
+!SESSION 2020-02-11 10:14:07.795 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 10:14:59.761
+!MESSAGE Indexed 'elo_bsp' (81 sources, 60 headers) in 0,91 sec: 957 declarations; 2 377 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5,63 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 10:15:05.951
+!MESSAGE Indexed 'elo' (1 sources, 13 headers) in 0,02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:17:27.532
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:17:31.459
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:19:08.952
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:19:10.242
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:19:14.403
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:20:31.384
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:20:32.723
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:20:36.821
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-02-11 10:20:47.163
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x8109040, /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-02-11 10:20:47.163
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:21:28.407
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:21:33.217
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:21:53.282
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:21:55.232
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:21:57.582
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:22:00.110
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:22:02.450
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:23:36.049
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:23:36.059
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:23:37.879
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:23:42.909
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:24:53.963
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:24:55.752
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:24:59.778
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:27:12.173
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:27:13.933
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:27:17.958
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+!SESSION 2020-02-14 15:00:37.748 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data C:\Temp\TP1\PARTIE2\sys_emb_512_f\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:03:21.502
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581411437]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:03:25.153
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581411437 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:04:47.836
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:04:48.786
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581411437]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:04:52.386
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581411437 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:06:07.186
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:06:08.096
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581411437]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 15:06:11.695
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581411437 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_512_f/software/elo/elo.elf]

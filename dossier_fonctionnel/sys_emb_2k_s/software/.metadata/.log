@@ -1,0 +1,289 @@
+!SESSION 2020-02-11 09:38:57.784 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 09:41:32.048
+!MESSAGE Indexed 'elo_bsp' (81 sources, 60 headers) in 1,24 sec: 957 declarations; 2 377 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5,63 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 09:41:43.587
+!MESSAGE Indexed 'elo' (1 sources, 13 headers) in 0,03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.debug.core 4 102 2020-02-11 09:47:30.810
+!MESSAGE A project was not specified in the launch configuration.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:49:28.840
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581409557]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:49:33.998
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581409557 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:54:31.010
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:54:32.550
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581409557]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:54:38.938
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581409557 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:55:48.347
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:55:50.267
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581409557]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:55:57.851
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581409557 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:58:43.027
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581409557]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 09:58:48.866
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581409557 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:00:27.329
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:00:28.649
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581409557]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:00:34.150
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581409557 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb/software/elo/elo.elf]
+!SESSION 2020-02-11 10:28:52.400 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2020-02-11 10:29:16.453
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-02-11 10:29:19.083
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-02-11 10:29:19.083
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-02-11 10:29:19.083
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-02-11 10:29:19.083
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-02-11 10:29:19.083
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:29:19.083
+!MESSAGE OK
+!SESSION 2020-02-11 10:31:39.790 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data C:\Temp\TP1\PARTIE2\sys_emb_2k_s\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2020-02-11 10:31:43.600
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-02-11 10:31:46.350
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-02-11 10:31:46.350
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-02-11 10:31:46.350
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-02-11 10:31:46.350
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-02-11 10:31:46.350
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2020-02-11 10:31:46.350
+!MESSAGE OK
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 10:32:28.606
+!MESSAGE Indexed 'elo_bsp' (81 sources, 60 headers) in 0,85 sec: 952 declarations; 2 341 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5,70 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-11 10:32:34.265
+!MESSAGE Indexed 'elo' (1 sources, 13 headers) in 0,02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-02-11 10:34:54.044
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1581409557", expected: "1581413336".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-02-11 10:34:54.054
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1581409557", expected: "1581413336".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:35:19.731
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:35:22.461
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:35:24.669
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:35:26.745
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:37:19.239
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:37:19.259
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:37:20.548
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:37:24.829
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:40:03.942
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:40:06.321
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x8109040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-11 10:40:10.282
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x8109040 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+!SESSION 2020-02-14 14:54:22.385 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2020-02-14 14:54:42.653
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-02-14 14:54:45.012
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-02-14 14:54:45.012
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-02-14 14:54:45.012
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-02-14 14:54:45.012
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-02-14 14:54:45.012
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2020-02-14 14:54:45.012
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:56:07.306
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581413336]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:56:11.975
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581413336 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:57:30.097
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:57:31.037
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581413336]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:57:34.686
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581413336 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:59:02.110
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:59:03.030
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x8109040 --id=0x0 --timestamp=1581413336]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-02-14 14:59:06.647
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x8109040 --id=0x0 --timestamp=1581413336 /cygdrive/c/Temp/TP1/PARTIE2/sys_emb_2k_s/software/elo/elo.elf]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="172" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="395" />
+   <clocksource preferredWidth="395" />
+   <frequency preferredWidth="388" />
+  </columns>
+ </clocktable>
+ <window width="1616" height="1186" x="-8" y="-8" />
+ <library
+   expandedCategories="Library/University Program/Communications,Library/University Program/Bridges,Library/Memories and Memory Controllers,Library/Qsys Interconnect/AXI Interface,Library/Peripherals/Microcontroller Peripherals,Library/Memories and Memory Controllers/External Memory Interfaces/DDR2 Interfaces,Library/Clock and Reset,Library/University Program/Memory,Library/Interface Protocols/Serial,Library/University Program/Generic IO,Library/Bridges,Library/Qsys Interconnect/Memory-Mapped,Library/Memories and Memory Controllers/External Memory Interfaces/LPDDR2 Interfaces,Library/University Program/Audio &amp; Video/Video,Library/Interface Protocols,Library/Peripherals,Library/Interface Protocols/SDI,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Memories and Memory Controllers/On-Chip,Library/Memories and Memory Controllers/External Memory Interfaces/DDR3 Interfaces,Library/DSP,Library,Library/Interface Protocols/Ethernet/Example,Library/Verification/Simulation,Project,Library/Verification/Debug &amp; Performance,Library/University Program,Library/Interface Protocols/RapidIO,Library/Bridges/Streaming,Library/Verification,Library/Memories and Memory Controllers/External Memory Interfaces/RLDRAM 3 Interfaces,Library/Memories and Memory Controllers/External Memory Interfaces/RLDRAM II Interfaces,Library/Qsys Interconnect/Interrupt,Library/Interface Protocols/Transceiver PHY,Library/Qsys Interconnect/Tri-State Components,Library/DSP/Video and Image Processing,Library/Merlin Components,Library/Memories and Memory Controllers/External Memory Interfaces/Memory Models,Library/Microcontroller Peripherals,Library/Interface Protocols/Ethernet,Library/Embedded Processors,Library/University Program/Audio &amp; Video,Library/Qsys Interconnect,Library/Memories and Memory Controllers/External Memory Interfaces/QDR II Interfaces,Library/Peripherals/Debug and Performance,Library/Configuration &amp; Programming" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>
