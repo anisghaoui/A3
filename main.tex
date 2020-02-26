@@ -83,8 +83,11 @@ Cette implémentation décompose relativement bien les états de l'automate. Mai
 %
 
 \subsection{Implémentation avec opérateur unique}
-On propose alors une implémentation avec un seul addition/soustracteur proposé dans l'én oncé.
+On propose alors une implémentation avec un seul addition/soustracteur proposé dans l'énoncé. Ceci a pour but de diminuer le nombre d'éléments logiques utilisés. Il existe plusieurs implémentations de cet opérateur qui ont toutes comme contraintes de n'instancier qu'un seul opérateur qui est fourni par l'énoncé.
+
 \subsubsection{Opérandes préemptées}
+Dans cette variante, on positionne les variables à l'entrée de l'opérateur à un cycle avant leur utilisation. Ceci va contraindre la synthèse à avoir une période d'horloge plus grande que la durée de l'opération combinatoire d'addition/soustraction.
+
 \subsubsection{Ségrégation des machines} % Quentin
 
 \subsection{Implémentation Pipeline} % Quentin
@@ -92,7 +95,25 @@ On propose alors une implémentation avec un seul addition/soustracteur proposé
 \section{Comparaison et résultat}
 
 \section{Conception du système embarqué} % 23-Jan
-\section{Programmation de la partie Nios}
-\section{Intégration etc } % a voir
-	
+Le système embarqué sera implémenté sur une carte Intel/Altera Cyclone II De1. Au cœur de ce système : un softcore le NIOS2 entouré de contrôleurs mémoires On-chip, SDRAM, SSRAM, module racine carrée VHDL et bien-sûr le périphérique JTAG permettant de programmer et déboguer le NIOS.
+\subsection{Implémentation et programmation du Nios}
+L'IP du softcore est fourni par Intel/Altera en plusieurs versions chacune offrant différentes cadences fréquentielles, caches instructions/données, opérateurs et pipeline. On ne détaillera pas ces différences ici car elles ont été vu en cours et peuvent être retrouvées dans la documentation d'Intel. On implémente donc les différentes versions telles que :
+\begin{itemize}
+\item Nios e : cache instructions 512 o
+\item Nios s : cache instructions 512 o et données 512 o
+\item Nios s : cache instructions 2 ko et données 2 ko
+\item Nios f : cache instructions 512 o et données 512 o
+\item Nios f : cache instructions 2 ko et données 2 ko
+\end{itemize}
+\subsection{Usage des différentes mémoires}
+Grâce aux outils de développement proposés par Intel/Altera, on peut semi/automatiquement instancier de systèmes embarqués avec la possibilité de paramétrer l'emplacement mémoire du programme qui sera exécuté sur CPU. On peut alors écrire un programme qui calcule la racine carrée entière d'un nombre de manière logicielle, i.e. utiliser les opérateurs du NIOS. Ensuite, placer les données et le code dans soit la mémoire On-chip, SSRAM ou SDRAM. Ceci permet d'établir un comparatif entre ces différentes mémoires en termes de conception et timings. 
+
+%Quentin ajoute ce que tu penses pértinant
+
+\subsection{Comparaison des différentes implémentations}
+
+%2 tableaux ici : 1 pour le temps , l'autre pour la surface FPGA
+
+\section{Intégration des instructions personnalisées}
+\section{Intégration du coprocesseur}
 \end{document}
