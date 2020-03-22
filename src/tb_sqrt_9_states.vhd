@@ -17,7 +17,7 @@ architecture rtl_sim of tb_sqrt_9_states is
     constant RST_HOLD_DURATION : time := 200 ns;
     signal X                   : STD_LOGIC_VECTOR(2 * N - 1 downto 0);
     signal start               : STD_LOGIC;
-    signal Z                   : STD_LOGIC_VECTOR(N - 1 downto 0);
+    signal result                   : STD_LOGIC_VECTOR(N - 1 downto 0);
     signal done                : STD_LOGIC;
     signal clk                 : STD_LOGIC;
     signal rst                 : STD_LOGIC;
@@ -53,7 +53,7 @@ begin
         port map (
             X     => X,
             start => start,
-            Z     => Z,
+            result     => result,
             done  => done,
             clk   => clk,
             rst   => rst

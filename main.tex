@@ -93,9 +93,26 @@ Dans cette variante, on positionne les variables à l'entrée de l'opérateur à
 \subsection{Implémentation Pipeline} % Quentin
 
 \section{Comparaison et résultat}
+On remarque qu'il existe plusieurs compromis en termes de fréquences, surface FPGA. On peut par ailleurs comparer les différentes implémentations entre elles. On obtient ainsi les résultats suivants.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{mesures_freq/0}
+	\caption{Mesures fréquentielles des différentes implémentations }
+	\label{fig:0}
+\end{figure}
+On ne peut pas mesurer la fréquence de fonctionnement d'une circuit combinatoire sans imposer de registres à l'entrée et la sortie du circuit. On remarque que, comme attendu, on a un pipeline cadencé à une vitesse plus importante que les autres circuits. On remarque aussi que les circuits multi-cycles sont plus rapides que les circuits mono-opérateur. Ce qui est logique car elles prennent plus de place afin d'assurer une telle cadence.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{mesures_freq/4}
+	\caption{Usage de la surface FPGA par circuit implémenté}
+	\label{fig:1}
+\end{figure}
+En terme de surface et éléments logiques occupés, la figure \ref{fig:1} montre que le pipeline occupé effectivement n fois plus de ressources car il y a bien n étages du même circuit. Aussi, on confirme bien les résultats trouvés en fréquentiel en observant que les mono-opérateurs sont plus économique en terme de surface FPGA.
 
 \section{Conception du système embarqué} % 23-Jan
-Le système embarqué sera implémenté sur une carte Intel/Altera Cyclone II De1. Au cœur de ce système : un softcore le NIOS2 entouré de contrôleurs mémoires On-chip, SDRAM, SSRAM, module racine carrée VHDL et bien-sûr le périphérique JTAG permettant de programmer et déboguer le NIOS.
+Le système embarqué sera implémenté sur une carte Intel/Altera Cyclone II De1. Au cœur de ce système : un softcore le NIOS2 entouré de contrôleurs mémoires On-chip, SDRAM, SSRAM, module racine carrée VHDL et bien-sûr le périphérique JTAG permettant de programmer et déboguer le NIOS. Par ailleurs, on utilisera des IP préconçues qui vont accélérer le développement du système. 
+
+
 \subsection{Implémentation et programmation du Nios}
 L'IP du softcore est fourni par Intel/Altera en plusieurs versions chacune offrant différentes cadences fréquentielles, caches instructions/données, opérateurs et pipeline. On ne détaillera pas ces différences ici car elles ont été vu en cours et peuvent être retrouvées dans la documentation d'Intel. On implémente donc les différentes versions telles que :
 \begin{itemize}
@@ -106,13 +123,66 @@ L'IP du softcore est fourni par Intel/Altera en plusieurs versions chacune offra
 \item Nios f : cache instructions 2 ko et données 2 ko
 \end{itemize}
 \subsection{Usage des différentes mémoires}
-Grâce aux outils de développement proposés par Intel/Altera, on peut semi/automatiquement instancier de systèmes embarqués avec la possibilité de paramétrer l'emplacement mémoire du programme qui sera exécuté sur CPU. On peut alors écrire un programme qui calcule la racine carrée entière d'un nombre de manière logicielle, i.e. utiliser les opérateurs du NIOS. Ensuite, placer les données et le code dans soit la mémoire On-chip, SSRAM ou SDRAM. Ceci permet d'établir un comparatif entre ces différentes mémoires en termes de conception et timings. 
+Grâce aux outils de développement proposés par Intel/Altera, on peut semi/automatiquement instancier de systèmes embarqués avec la possibilité de paramétrer l'emplacement mémoire du programme qui sera exécuté sur CPU. On peut alors écrire un programme qui calcule la racine carrée entière d'un nombre de manière logicielle, i.e. utiliser les opérateurs du NIOS. Ensuite, placer les données et le code dans soit la mémoire On-chip, SSRAM ou SDRAM. Ceci permet d'établir un comparatif entre ces différentes mémoires en termes de conception et timings pour plusieurs version du NIOS vues en cours. 
 
 %Quentin ajoute ce que tu penses pértinant
 
 \subsection{Comparaison des différentes implémentations}
+On exécute le même programme C sur les différentes version du Nios. On mesure à chaque fois le temps d'exécution de ce code pour une mémoire et un version Nios.
 
-%2 tableaux ici : 1 pour le temps , l'autre pour la surface FPGA
+\subsubsection{Mesure de temps}
+Il existe plusieurs manières de mesurer le temps d'exécution sur Nios. Dans notre cas, on peut soit utiliser la bibliothèque fournie par le constructeur afin d'exploiter le registre compteur du Nios. Ou bien, implémenter nous-même ces fonctions de mesures afin d'avoir un plus grand contrôle sur la mesure de temps. Sans détailler, on opte pour implémenter ces fonctions et on les compare avec la version proposée par Altera :
+$$
+\begin{array}{cc}
+	Impl\acute{e}mentation & \textit{temps de mesure à  vide ms} \\ 
+	Altera & 108 \\ 
+	Personnalis\acute{e}e & 56 
+\end{array} 
+$$
+
+On garde alors nos propres fonctions de mesures. On procède à une mesure fine du temps d'exécution. I.e. on  mesure le temps de lecture depuis un tableau, d'exécution de la fonction racine carrée et de l'écriture dans un tableau qui contient 1000 éléments. On obtient alors le tableau suivant :
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		Lecture (ms) & exécution (ms) & écriture (ms) & mémoire &  Nios  \\ \hline
+		   951006    &     152117     &    143773     &  SDRAM  & 2k\_f  \\ \hline
+		   920547    &     113891     &    107808     &  SSRAM  & 2k\_f  \\ \hline
+		   864807    &     56543      &     52084     & ONCHIP  & 2k\_f  \\
+		   \hline		  \hline
+		  4408206    &     167321     &    174576     &  SDRAM  & 2k\_s  \\ \hline
+		  1780954    &     86035      &     86012     &  SSRAM  & 2k\_s  \\ \hline
+		  1332246    &     71018      &     71008     & ONCHIP  & 2k\_s  \\ 
+
+		  \hline		  \hline
+
+		  1021266    &     198997     &    142142     &  SDRAM  & 512\_f \\ \hline
+		   946526    &     124316     &    102657     &  SSRAM  & 512\_f \\ \hline
+		   911848    &     73247      &     57028     & ONCHIP  & 512\_f \\ 
+
+		   \hline		  \hline
+
+		  4407738    &     167296     &    174586     &  SDRAM  & 512\_s \\ \hline
+		  1780954    &     86035      &     86012     &  SSRAM  & 512\_s \\ \hline
+		  1332246    &     71018      &     71008     & ONCHIP  & 512\_s \\ 
+		  \hline		  \hline
+
+		  13484546    &     709816     &    713872     &  SDRAM  &   e    \\ \hline
+		  5308056    &     316000     &    319000     &  SSRAM  &   e    \\ \hline
+		  3992076    &     245000     &    248000     & ONCHIP  &   e    \\ \hline
+	\end{tabular} 
+\caption{Temps de lecture, d'exécution et écriture des différentes}
+\end{table}
+On remarque que la version 2k\_f du Nios est la plus performante. Ceci est évident car c'est elle qui exploite le plus la surface du FPGA et possède des opérateurs en pipeline plus profonds. La mémoire Onchip est plus rapide que la SRAM et encore plus rapide que la DRAM du fait de la nature de conception des ces mémoires et la rapidité des accès. On remarque aussi qu'il y a des masquages des latences du chargement par la version 2k\_f.
+
+En terme de surface FPGA, on peu voir sur le graphe suivant que la surface occupée est liée à la version du Nios. Plus la version est performante, plus elle occupera de la surface.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{figures/plot}
+	\caption{Occupation des éléments logiques du FPGA}
+\end{figure}
+Les mêmes versions de nios occupent le même nombre d'éléments logiques mais un espace mémoire cache plsu grand.
+
 
 \section{Intégration des instructions personnalisées}
 \section{Intégration du coprocesseur}
