@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{n}{ushort} \PYG{n+nf}{sqrt\PYGZus{}hw} \PYG{p}{(}\PYG{n}{uint} \PYG{n}{X}\PYG{p}{)}
+			\PYG{p}{\PYGZob{}}
+				\PYG{n}{ushort} \PYG{n}{z}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+				\PYG{o}{*}\PYG{n}{SQRT\PYGZus{}X}\PYG{o}{=}\PYG{n}{X}\PYG{p}{;}
+				\PYG{o}{*}\PYG{n}{SQRT\PYGZus{}status}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}
+				\PYG{k}{while}\PYG{p}{(}\PYG{l+m+mh}{0x1} \PYG{o}{\PYGZam{}} \PYG{o}{*}\PYG{n}{SQRT\PYGZus{}status} \PYG{o}{!=} \PYG{l+m+mi}{1}\PYG{p}{);}
+				\PYG{o}{*}\PYG{n}{SQRT\PYGZus{}status}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+				\PYG{n}{z}\PYG{o}{=*}\PYG{n}{SQRT\PYGZus{}result}\PYG{p}{;}
+				\PYG{k}{return} \PYG{n}{z}\PYG{p}{;}
+			\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
