@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Conception d'op\351rateur racine carr\351e}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Impl\351mentation combinatoire}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Impl\351mentation multi-cycles}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{4 cycles}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{9 cycles}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Variante "avare"}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Impl\351mentation avec op\351rateur unique}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Op\351randes pr\351empt\351es}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.2}{S\351gr\351gation des machines d'\351tats}{subsection.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Impl\351mentation Pipeline}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{Comparaison et r\351sultat}{}% 12
+\BOOKMARK [1][-]{section.4}{Conception du syst\350me embarqu\351}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Impl\351mentation et programmation du Nios}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Usage des diff\351rentes m\351moires}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Comparaison des diff\351rentes impl\351mentations}{section.4}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Mesure de temps}{subsection.4.3}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Temps mesur\351s}{subsection.4.3}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Int\351gration du coprocesseur}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Entr\351es/Sorties}{subsection.4.4}% 20
+\BOOKMARK [2][-]{subsection.4.5}{Int\351gration des instructions personnalis\351es}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.6}{Comparaison}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 23

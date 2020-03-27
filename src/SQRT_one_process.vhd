@@ -37,8 +37,8 @@ begin
 					temp_X := UNSIGNED(X);
 					temp_Z := UNSIGNED(zero);
 					V      := UNSIGNED(V_INI);
-					T <= R; -- force quartus to analyse
-					for I IN N downto 0 loop
+
+					for I IN N downto 1 loop
 						temp_Z := temp_Z + v;
 						if(SIGNED(temp_X-temp_Z)>=0) then
 							temp_X := temp_X-temp_Z;
@@ -51,12 +51,9 @@ begin
 					end loop;
 					r_out <= STD_LOGIC_VECTOR(temp_Z(N-1 downto 0));
 					done  <= '1';
-					
-					T <= R; -- force quartus to analyse
 
 				else
 					done <= '0';
-					T <= R; -- force quartus to analyse
 				end if;
 			end if;
 		end if;

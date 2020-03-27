@@ -56,7 +56,7 @@ begin
         port map (
             X     => X,
             start => start,
-            r_out     => Z,
+            Z     => Z,
             done  => done,
             clk   => clk,
             rst   => rst
